@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATLAS — Marketing Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div id="cur"></div>
+  <div id="cur-ring"></div>
+  <div id="cur-label"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#" class="n-logo">
+      <span class="n-logo-main">ATLAS</span>
+      <span class="n-logo-sub">MARKETING AND STRATEGY</span>
+    </a>
+    <ul class="n-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#features">Why Us</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#cta">Contact</a></li>
+    </ul>
+    <a href="#cta" class="n-btn">Get Started</a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-title" id="heroTitle">
+      <span class="word-wrap" id="ww1"></span>
+      <span class="word-wrap" id="ww2"></span>
+      <span class="word-wrap" id="ww3"></span>
+    </div>
+    <div class="hero-bot">
+      <p class="hero-desc">ATLAS is a student-led agency delivering agency-grade results at startup-friendly prices. We chart the territory others miss.</p>
+      <div class="hero-actions">
+        <a href="#services" class="btn-p">Our Services</a>
+        <a href="#cta" class="btn-g">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-ind">Scroll</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="mq">
+    <div class="mq-track" id="mqTrack">
+      <span class="mq-item">SEO Strategy</span><span class="mq-item">Social Media</span><span class="mq-item">Content Creation</span><span class="mq-item">Email Marketing</span><span class="mq-item">Brand Identity</span><span class="mq-item">Market Research</span><span class="mq-item">Event Marketing</span><span class="mq-item">Local Growth</span>
+      <span class="mq-item">SEO Strategy</span><span class="mq-item">Social Media</span><span class="mq-item">Content Creation</span><span class="mq-item">Email Marketing</span><span class="mq-item">Brand Identity</span><span class="mq-item">Market Research</span><span class="mq-item">Event Marketing</span><span class="mq-item">Local Growth</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="reveal">
+      <p class="sl">What We Do</p>
+      <h2 class="section-h2">Every Service<br>You Need</h2>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card reveal rd1"><p class="svc-num">01</p><h3>SEO & Search</h3><p>Keyword research, on-page optimization, and performance tracking that puts you on the map — literally.</p><p class="svc-price">From ₹2,000 / mo</p></div>
+      <div class="svc-card reveal rd2"><p class="svc-num">02</p><h3>Social Media</h3><p>Content calendars, community management, and engagement strategy across every platform that matters.</p><p class="svc-price">From ₹1,500 / mo</p></div>
+      <div class="svc-card reveal rd3"><p class="svc-num">03</p><h3>Email Marketing</h3><p>Campaigns that actually convert — welcome flows, newsletters, segmentation, and automation done right.</p><p class="svc-price">From ₹500 / mo</p></div>
+      <div class="svc-card reveal rd4"><p class="svc-num">04</p><h3>Content & Copy</h3><p>Blog posts, ad copy, case studies, and brand messaging that speaks directly to your audience.</p><p class="svc-price">From ₹1,000 / mo</p></div>
+      <div class="svc-card reveal rd5"><p class="svc-num">05</p><h3>Brand Design</h3><p>Logos, flyers, brochures, and event materials — everything you need to look unforgettable.</p><p class="svc-price">From ₹500 / project</p></div>
+      <div class="svc-card reveal"><p class="svc-num">06</p><h3>Market Research</h3><p>Data-driven insights into your audience, competitors, and market gaps so you can move with confidence.</p><p class="svc-price">From ₹1,000 / report</p></div>
+    </div>
+  </section>
+
+  <!-- PARALLAX QUOTE -->
+  <section id="quote-section">
+    <canvas id="quoteCanvas"></canvas>
+    <div class="quote-inner">
+      <p class="big-quote reveal">
+        We <em>Map</em> the <span class="out">Territory</span><br>
+        Others <em>Miss</em> — Then<br>
+        <span class="out">We Conquer</span> It
+      </p>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats">
+    <div class="stat reveal"><span class="snum" data-t="12">0</span><span class="slabel">Clients Served</span></div>
+    <div class="stat reveal rd1"><span class="snum" data-t="69" data-s="%">0</span><span class="slabel">Profit Margin</span></div>
+    <div class="stat reveal rd2"><span class="snum" data-t="8">0</span><span class="slabel">Services Offered</span></div>
+    <div class="stat reveal rd3"><span class="snum" data-t="50" data-s="–70%">0</span><span class="slabel">Lower Than Market</span></div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <div class="feat-head">
+      <div class="reveal"><p class="sl">Why Atlas</p><h2 class="section-h2">The Unfair<br>Advantage</h2></div>
+      <p class="reveal rd2" style="font-size:14px;font-weight:300;color:var(--dim);line-height:1.9;">We're not an agency with overheads. We're a lean, sharp team that delivers more for less — and means it every single time.</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat reveal"><span class="feat-icon">◎</span><h3>50–70% Lower Pricing</h3><p>Agency-grade quality without the inflated retainer. Invest more in growth, less in overhead.</p></div>
+      <div class="feat reveal rd1"><span class="feat-icon">⟳</span><h3>Rapid Turnaround</h3><p>No middlemen, no waiting rooms. Direct communication means faster delivery, faster results.</p></div>
+      <div class="feat reveal rd2"><span class="feat-icon">◈</span><h3>Tech-Native Team</h3><p>We live inside the tools. SEO algorithms, social trends, automation — it's our native language.</p></div>
+      <div class="feat reveal rd3"><span class="feat-icon">◉</span><h3>Fresh Perspective</h3><p>Zero legacy thinking. Every brief gets genuine curiosity and modern sensibility that bigger agencies can't fake.</p></div>
+      <div class="feat reveal rd4"><span class="feat-icon">◇</span><h3>Transparent Reporting</h3><p>Real numbers, honest analysis, clear next steps every month. No vanity metrics, ever.</p></div>
+      <div class="feat reveal rd5"><span class="feat-icon">◐</span><h3>Scalable Plans</h3><p>Start with ₹2,000. Scale when you're ready. Our tiers grow with your business, not ahead of it.</p></div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <p class="sl reveal" style="justify-content:center;">Investment</p>
+    <h2 class="reveal" style="font-family:var(--F);font-size:clamp(40px,5vw,64px);font-weight:800;text-transform:uppercase;letter-spacing:-.02em;margin-bottom:16px;">Simple Pricing.<br>Real Results.</h2>
+    <p class="sub reveal">No hidden fees. No bloated retainers. Just honest work at honest rates.</p>
+    <div class="price-cards reveal">
+      <div class="pc">
+        <p class="plan">Starter</p>
+        <p class="price">₹2,000</p><p class="psub">per month</p>
+        <ul><li>Basic SEO Audit</li><li>2 Social Posts/week</li><li>Monthly Report</li><li>Email Support</li></ul>
+        <a href="#cta" class="btn-g" style="display:block;text-align:center;">Get Started</a>
+      </div>
+      <div class="pc hot">
+        <p class="plan">★ Growth</p>
+        <p class="price">₹5,000</p><p class="psub">per month</p>
+        <ul><li>Full SEO Package</li><li>Social Management</li><li>Email Campaigns</li><li>4 Content Pieces</li><li>Bi-weekly Reports</li></ul>
+        <a href="#cta" class="btn-p" style="display:block;text-align:center;">Most Popular</a>
+      </div>
+      <div class="pc">
+        <p class="plan">Scale</p>
+        <p class="price">₹8,000</p><p class="psub">per month</p>
+        <ul><li>Everything in Growth</li><li>Event Marketing</li><li>Market Research</li><li>Brand Design</li><li>Weekly Strategy Call</li></ul>
+        <a href="#cta" class="btn-g" style="display:block;text-align:center;">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta">
+    <div class="reveal">
+      <p class="sl">Contact</p>
+      <h2 style="font-family:var(--F);font-size:clamp(44px,5.5vw,72px);font-weight:800;text-transform:uppercase;letter-spacing:-.025em;line-height:.95;">Ready to Put<br>Your Brand<br>on the <em style="font-style:normal;color:var(--gold)">Map?</em></h2>
+    </div>
+    <div class="cta-r reveal rd2">
+      <p>Drop your email and we'll reach out within 24 hours to discuss your goals, timeline, and how ATLAS can help you grow without breaking the bank.</p>
+      <div class="cta-form">
+        <input type="email" placeholder="your@email.com" id="emailInput">
+        <button id="ctaBtn">Send It →</button>
+      </div>
+      <p id="ctaMsg" style="font-size:12px;color:#555;margin-top:16px;min-height:18px;"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="ft">
+      <div class="fb">
+        <span class="logo">ATLAS</span>
+        <p>A student-led marketing agency mapping growth for startups and local businesses.</p>
+      </div>
+      <div class="fc"><h4>Services</h4><ul><li><a href="#">SEO & Search</a></li><li><a href="#">Social Media</a></li><li><a href="#">Email Marketing</a></li><li><a href="#">Content Writing</a></li><li><a href="#">Brand Design</a></li></ul></div>
+      <div class="fc"><h4>Company</h4><ul><li><a href="#features">Why Atlas</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#cta">Contact</a></li></ul></div>
+      <div class="fc"><h4>Connect</h4><ul><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">Twitter / X</a></li><li><a href="#">WhatsApp</a></li></ul></div>
+    </div>
+    <div class="fb2">
+      <p>© 2025 Atlas Marketing Agency. All rights reserved.</p>
+      <div class="fsoc"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Twitter</a></div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/supabase.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/letters.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/cta.js"></script>
+
+</body>
+</html>
